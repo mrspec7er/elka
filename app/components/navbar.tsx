@@ -4,14 +4,18 @@ import { Navbar } from "flowbite-react";
 
 export default function MainNavbar() {
   return (
-    <Navbar className="bg-gray-900" fluid rounded>
+    <Navbar
+      className="bg-[url('/bg.png')] bg-cover bg-gray-900 h-[7.5vh] rounded-none"
+      fluid
+      rounded
+    >
       <Navbar.Brand href="https://flowbite-react.com">
         <img
           alt="Flowbite React Logo"
           className="mr-3 h-6 sm:h-9"
           src="https://www.flowbite-react.com/favicon.svg"
         />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
           Elka Code
         </span>
       </Navbar.Brand>
