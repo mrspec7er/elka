@@ -4,7 +4,7 @@ import { Footer } from "flowbite-react";
 
 export default function MainFooter() {
   return (
-    <Footer className="bg-gray-700 rounded-none" container>
+    <Footer className="bg-gray-900 rounded-none" container>
       <Footer.Copyright
         className="text-white"
         by="Elka™"

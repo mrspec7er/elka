@@ -4,7 +4,7 @@ import { Navbar } from "flowbite-react";
 
 export default function MainNavbar() {
   return (
-    <Navbar className="bg-gray-700" fluid rounded>
+    <Navbar className="bg-gray-900" fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
         <img
           alt="Flowbite React Logo"
