@@ -1,5 +1,6 @@
 import MainNavbar from "./components/navbar";
 import MainFooter from "./components/footer";
+import ThirdSection from "./components/thirdSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main>
         <FirstSection />
         <SecondSection />
+        <ThirdSection />
       </main>
       <MainFooter />
     </>
