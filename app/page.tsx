@@ -1,6 +1,6 @@
 import MainNavbar from "./components/navbar";
 import MainFooter from "./components/footer";
-import ThirdSection from "./components/thirdSection";
+import ThirdSection from "./layout/thirdSection";
 
 export default function Home() {
   return (
@@ -47,8 +47,13 @@ function SecondSection() {
       <div className="container mx-auto pl-3 flex flex-col-reverse md:flex-row items-center md:pl-[30vw] py-32 min-h-[85vh]">
         <div>
           <img
-            className="absolute left-0 2xl:w-[10vw] lg:w-[20vw] md:w-[30vw] w-[50vw] md:top-[30%] top-[15%]"
+            className="absolute left-0 md:top-[30%] top-[15%] 2xl:w-[10vw] lg:w-[20vw] md:w-[30vw] w-[50vw]"
             src="/content2.png"
+            alt="presentation"
+          />
+          <img
+            className="absolute right-0 md:top-[10%] top-[45%] opacity-30 -z-10 2xl:w-[10vw] lg:w-[17vw] md:w-[25vw] w-[50vw]"
+            src="/content3.png"
             alt="presentation"
           />
         </div>
