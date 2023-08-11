@@ -1,6 +1,6 @@
 import MainNavbar from "./components/navbar";
 import MainFooter from "./components/footer";
-import ThirdSection from "./layout/thirdSection";
+import ThirdSection from "./layout/third-section";
 
 export default function Home() {
   return (

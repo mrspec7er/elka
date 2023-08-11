@@ -14,7 +14,7 @@ export default function ThirdSection() {
           alt="cornericon"
         />
         <p className="text-2xl text-center font-semibold p-5">Our Product</p>
-        <div className="flex flex-wrap justify-center gap-7 relative">
+        <div className="flex flex-wrap justify-center gap-7 relative z-10">
           {products.map((prod) => (
             <Card key={prod} className="max-w-sm hover:scale-110">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -34,7 +34,7 @@ export default function ThirdSection() {
           ))}
         </div>
         <img
-          className="absolute left-5 bottom-5 z-0 w-[30vw]"
+          className="absolute left-32 bottom-0 -z-0 w-[25vw]"
           src="/corner2.png"
           alt="cornericon"
         />
